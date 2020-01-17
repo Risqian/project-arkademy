@@ -1,0 +1,62 @@
+/* Responsif Layar Small  */
+
+@media screen and (max-width:320px) {
+    section#box-profile {
+        width: 90%;
+        height: 760px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+    .menu-mobile {
+        top: 20px;
+        right: 10%;
+        display: inline-block;
+    }
+    nav ul {
+        display: none;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        top: 41px;
+        z-index: 99;
+        background-color: #fff;
+    }
+    nav ul li {
+        float: unset;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .description {
+        padding-left: 30px;
+        width: 90%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .description .button {
+        padding: 10px 25px 10px 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .img-profile .photo {
+        left: 10px;
+        position: relative;
+    }
+    .information {
+        top: 75px;
+        margin-left: 25px;
+        font-size: 14px;
+    }
+    .information .data {
+        height: 48px;
+        /* width: 95px; */
+    }
+    .information p.field {
+        width: 95px;
+    }
+    section#input-form {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
